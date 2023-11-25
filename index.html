@@ -2,204 +2,179 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700;800&family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700;900&display=swap">
-  <title>Mr. K</title>
-  <style>
-    * {
-      font-family: "Kanit", sans-serif;
-    }
-
-    body {
-      background-color: #998EFC;
-      background-image: linear-gradient(62deg, #998EFC 0%, #C3EAFC 100%);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mr. K</title>
 </head>
 
 <body>
-  <!-- Header -->
-  <header>
-    <center>
-      <h1>Mr. K</h1>
-    </center>
-    <fieldset>
-      <center>
-        <nav>
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#blogs">Blogs</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </center>
-    </fieldset>
+    <!-- Header -->
+    <header>
+        <center>
+            <h1>Mr. K</h1>
+        </center>
+        <fieldset>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#blogs">Blogs</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </fieldset>
+        <br>
+        <div>
+            <img src="img-banner.png" alt="banner">
+        </div>
+    </header>
+
+    <main>
+        <!-- About me -->
+        <section id="about">
+            <center>
+                <h2>About Me</h2>
+            </center>
+            <fieldset>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Placeat sapiente magni quidem asperiores minima magnam
+                    Numquam labore dolorum ut consequuntur aspernatur minima,
+                    deserunt quod modi deleniti nostrum debitis, earum eos
+                    perferendis repellat repudiandae, labore itaque dolorum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Numquam labore dolorum ut consequuntur aspernatur,
+                    mollitia magnam corporis autem alias nobis ab et,
+                    aut ipsa expedita cupiditate deleniti sed?
+                </p>
+            </fieldset>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <center>
+                <h2>My Skills</h2>
+            </center>
+            <fieldset>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </fieldset>
+        </section>
+
+        <!-- My Projects -->
+        <section id="projects">
+            <center>
+                <h2>My Projects</h2>
+            </center>
+            <fieldset>
+                <ul>
+                    <li style="list-style-type: square;">
+                        <a href="#">E-Commerce Website</a>
+                    </li>
+                    <li style="list-style-type: square;">
+                        <a href="#">Inventory Management System</a>
+                    </li>
+                    <li style="list-style-type: square;">
+                        <a href="#">Post Application</a>
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+
+        <!-- Blogs -->
+        <section id="blogs">
+            <center>
+                <h2>Blogs</h2>
+            </center>
+            <fieldset>
+                <article>
+                    <h3>Blog 1</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Asperiores, tempora doloremque quas minus cupiditate
+                        molestiae commodi accusantium maxime totam,
+                        quidem distinctio adipisci repellat numquam
+                        beatae soluta dignissimos harum quia eaque!
+                    </p>
+                </article>
+            </fieldset>
+            <br>
+            <fieldset>
+                <article>
+                    <h3>Blog 2</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Asperiores, tempora doloremque quas minus cupiditate
+                        molestiae commodi accusantium maxime totam,
+                        quidem distinctio adipisci repellat numquam
+                        beatae soluta dignissimos harum quia eaque!
+                    </p>
+                </article>
+            </fieldset>
+            <br>
+            <fieldset>
+                <article>
+                    <h3>Blog 3</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Asperiores, tempora doloremque quas minus cupiditate
+                        molestiae commodi accusantium maxime totam,
+                        quidem distinctio adipisci repellat numquam
+                        beatae soluta dignissimos harum quia eaque!
+                    </p>
+                </article>
+            </fieldset>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <center>
+                <h2>Contact</h2>
+            </center>
+            <fieldset>
+                <div class="contact">
+                    <div>
+                        <h3>Social Links</h3>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Keep In Touch</h3>
+                        <form action="#">
+                            <label for="name">Name</label><br>
+                            <input type="text" id="name" placeholder="Your Name"><br>
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" placeholder="Your Email"><br>
+                            <label for="mobile">Mobile</label><br>
+                            <input type="number" id="mobile" placeholder="Your Mobile Number"><br>
+                            <label for="message">Message</label><br>
+                            <textarea id="message">Type Your Message</textarea><br>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </fieldset>
+        </section>
+    </main>
     <br>
-    <div>
-      <img
-        src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt="banner" width="100%" height="500" style="object-fit: cover;">
-    </div>
-  </header>
-  <!-- Header -->
 
-  <!-- Main -->
-  <main>
-    <!-- About me -->
-    <section id="about">
-      <center>
-        <h2>About Me</h2>
-      </center>
-      <fieldset>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Placeat sapiente magni quidem asperiores minima magnam
-          Numquam labore dolorum ut consequuntur aspernatur minima,
-          deserunt quod modi deleniti nostrum debitis, earum eos
-          perferendis repellat repudiandae, labore itaque dolorum.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Numquam labore dolorum ut consequuntur aspernatur,
-          mollitia magnam corporis autem alias nobis ab et,
-          aut ipsa expedita cupiditate deleniti sed?
-        </p>
-      </fieldset>
-    </section>
-    <!-- About me -->
-
-    <!-- Skills -->
-    <section id="skills">
-      <center>
-        <h2>My Skills</h2>
-      </center>
-      <fieldset>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-        </ul>
-      </fieldset>
-    </section>
-    <!-- Skills -->
-
-    <!-- My Projects -->
-    <section id="projects">
-      <center>
-        <h2>My Projects</h2>
-      </center>
-      <fieldset>
-        <ul>
-          <li style="list-style-type: square;">
-            <a href="#">E-Commerce Website</a>
-          </li>
-          <li style="list-style-type: square;">
-            <a href="#">Inventory Management System</a>
-          </li>
-          <li style="list-style-type: square;">
-            <a href="#">Post Application</a>
-          </li>
-        </ul>
-      </fieldset>
-    </section>
-    <!-- My Projects -->
-
-    <!-- Blogs -->
-    <section id="blogs">
-      <center>
-        <h2>Blogs</h2>
-      </center>
-      <fieldset>
-        <article>
-          <h3>Blog 1</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Asperiores, tempora doloremque quas minus cupiditate
-            molestiae commodi accusantium maxime totam,
-            quidem distinctio adipisci repellat numquam
-            beatae soluta dignissimos harum quia eaque!
-          </p>
-        </article>
-      </fieldset><br>
-      <fieldset>
-        <article>
-          <h3>Blog 2</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Asperiores, tempora doloremque quas minus cupiditate
-            molestiae commodi accusantium maxime totam,
-            quidem distinctio adipisci repellat numquam
-            beatae soluta dignissimos harum quia eaque!
-          </p>
-        </article>
-      </fieldset><br>
-      <fieldset>
-        <article>
-          <h3>Blog 3</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Asperiores, tempora doloremque quas minus cupiditate
-            molestiae commodi accusantium maxime totam,
-            quidem distinctio adipisci repellat numquam
-            beatae soluta dignissimos harum quia eaque!
-          </p>
-        </article>
-      </fieldset>
-    </section>
-    <!-- Blogs -->
-
-    <!-- Contact -->
-    <section id="contact">
-      <center>
-        <h2>Contact</h2>
-      </center>
-      <fieldset>
-        <table width="100%">
-          <tr>
-            <td width="50%">
-              <h3>Social Links</h3>
-              <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">LinkedIn</a></li>
-              </ul>
-            </td>
-            <td width="50%">
-              <h3>Keep In Touch</h3>
-              <form action="#">
-                <label for="name">Name</label><br>
-                <input type="text" id="name" size="40" placeholder="Type your name"><br>
-                <label for="email">Email</label><br>
-                <input type="email" id="email" size="40" placeholder="Type your email"><br>
-                <label for="mobile">Mobile</label><br>
-                <input type="text" id="mobile" size="40" placeholder="Type your mobile number">
-                <br>
-                <label for="message">Message</label><br>
-                <textarea cols="40" rows="5" id="message">Type your message</textarea>
-                <br><br>
-                <button type="submit" style="padding: 5px 15px;">Send</button>
-              </form>
-            </td>
-          </tr>
-        </table>
-      </fieldset>
-    </section>
-    <!-- Contact -->
-  </main><br>
-  <!-- Main -->
-
-  <!-- Footer -->
-  <footer>
-    <fieldset>
-      <center>
-        <p>&copy; All rights Reserved 2023</p>
-      </center>
-    </fieldset>
-  </footer>
-  <!-- Footer -->
+    <!-- Footer -->
+    <footer>
+        <fieldset>
+            <center>
+                <p>&copy; All rights Reserved 2023</p>
+            </center>
+        </fieldset>
+    </footer>
 </body>
 
 </html>
